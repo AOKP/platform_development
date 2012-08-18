@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="packages/apps/Bluetooth/src"/>
+	<classpathentry kind="src" path="packages/wallpapers/SwagPapers/src"/>
+	<classpathentry kind="src" path="packages/apps/ROMControl/src"/>
 	<classpathentry kind="src" path="packages/apps/Browser/src"/>
 	<classpathentry kind="src" path="packages/apps/Calendar/src"/>
 	<classpathentry kind="src" path="packages/apps/Calculator/src"/>
@@ -19,7 +21,6 @@
 	<classpathentry kind="src" path="packages/apps/Mms/src"/>
 	<classpathentry kind="src" path="packages/apps/PackageInstaller/src"/>
 	<classpathentry kind="src" path="packages/apps/Phone/src"/>
-	<classpathentry kind="src" path="packages/apps/QuickSearchBox/src"/>
 	<classpathentry kind="src" path="packages/apps/Provision/src"/>
 	<classpathentry kind="src" path="packages/apps/Settings/src"/>
 	<classpathentry kind="src" path="packages/apps/SoundRecorder/src"/>
@@ -65,33 +66,15 @@
 	<classpathentry kind="src" path="frameworks/support/v13/java"/>
 	<classpathentry kind="src" path="frameworks/support/v13/ics"/>
 	<classpathentry kind="src" path="frameworks/support/v13/ics-mr1"/>
-	<classpathentry kind="src" path="development/samples/ApiDemos/src"/>
-	<classpathentry kind="src" path="development/samples/ApiDemos/tests/src"/>
-	<classpathentry kind="src" path="development/samples/Compass/src"/>
-	<classpathentry kind="src" path="development/samples/HelloActivity/src"/>
-	<classpathentry kind="src" path="development/samples/HelloActivity/tests/src"/>
-	<classpathentry kind="src" path="development/samples/Home/src"/>
-	<classpathentry kind="src" path="development/samples/LunarLander/src"/>
-	<classpathentry kind="src" path="development/samples/LunarLander/tests/src"/>
-	<classpathentry kind="src" path="development/samples/NotePad/src"/>
-	<classpathentry kind="src" path="development/samples/NotePad/tests/src"/>
-	<classpathentry kind="src" path="development/samples/RSSReader/src"/>
-	<classpathentry kind="src" path="development/samples/SkeletonApp/src"/>
-	<classpathentry kind="src" path="development/samples/SkeletonApp/tests/src"/>
-	<classpathentry kind="src" path="development/samples/Snake/src"/>
-	<classpathentry kind="src" path="development/samples/Snake/tests/src"/>
 	<classpathentry kind="src" path="libcore/dalvik/src/main/java"/>
 	<classpathentry kind="src" path="libcore/json/src/main/java"/>
 	<classpathentry kind="src" path="libcore/luni/src/main/java"/>
 	<classpathentry kind="src" path="libcore/xml/src/main/java"/>
-	<classpathentry kind="src" path="out/target/common/obj/APPS/ApiDemos_intermediates/src/src"/>
 	<classpathentry kind="src" path="out/target/common/obj/APPS/Browser_intermediates/src/src"/>
 	<classpathentry kind="src" path="out/target/common/obj/APPS/CalendarProvider_intermediates/src/src"/>
 	<classpathentry kind="src" path="out/target/common/obj/APPS/ContactsProvider_intermediates/src/src"/>
 	<classpathentry kind="src" path="out/target/common/obj/APPS/MediaProvider_intermediates/src/src"/>
-	<classpathentry kind="src" path="out/target/common/obj/APPS/Music_intermediates/src/src"/>
 	<classpathentry kind="src" path="out/target/common/obj/APPS/Phone_intermediates/src/src"/>
-	<classpathentry kind="src" path="out/target/common/obj/APPS/QuickSearchBox_intermediates/src/src"/>
 	<classpathentry kind="src" path="out/target/common/obj/JAVA_LIBRARIES/android-common-carousel_intermediates/src/renderscript/src"/>
 	<classpathentry kind="src" path="out/target/common/obj/JAVA_LIBRARIES/com.android.emailcommon_intermediates/src/src"/>
 	<classpathentry kind="src" path="out/target/common/obj/JAVA_LIBRARIES/framework_intermediates/src/core/java"/>
@@ -112,9 +95,8 @@
 	<classpathentry kind="lib" path="out/target/common/obj/JAVA_LIBRARIES/bouncycastle_intermediates/classes-jarjar.jar"/>
 	<classpathentry kind="lib" path="out/target/common/obj/JAVA_LIBRARIES/android-support-v4_intermediates/javalib.jar"/>
 	<classpathentry kind="lib" path="out/target/common/obj/JAVA_LIBRARIES/core-junit_intermediates/classes.jar"/>
-	<classpathentry kind="lib" path="out/target/common/obj/JAVA_LIBRARIES/google-common_intermediates/javalib.jar"/>
-	<classpathentry kind="lib" path="out/target/common/obj/JAVA_LIBRARIES/gsf-client_intermediates/javalib.jar"/>
 	<classpathentry kind="lib" path="out/target/common/obj/JAVA_LIBRARIES/guava_intermediates/javalib.jar"/>
 	<classpathentry kind="lib" path="packages/apps/Calculator/arity-2.1.2.jar"/>
+	<classpathentry kind="lib" path="out/target/common/obj/JAVA_LIBRARIES/android-common_intermediates/javalib.jar"/>
 	<classpathentry kind="output" path="out/target/common/obj/JAVA_LIBRARIES/android_stubs_current_intermediates/classes"/>
 </classpath>
